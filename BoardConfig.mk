@@ -58,6 +58,7 @@ RECOVERY_VARIANT := twrp
 TW_THEME := portrait_hdpi
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd_backlight0/brightness
 TW_CUSTOM_BATTERY_PATH := /sys/class/power_supply/Battery
+TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone1/temp"
 TW_USE_NEW_MINADBD := true
 TW_EXCLUDE_TWRPAPP := true
 TW_NO_LEGACY_PROPS := true
